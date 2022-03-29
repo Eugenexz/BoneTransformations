@@ -1,0 +1,22 @@
+{
+  "name": "isolated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "three": "^0.139.0",
+    "dat.gui": "^0.7.7"
+  }
+}
